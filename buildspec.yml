@@ -7,4 +7,4 @@ phases:
       - dotnet build
 artifacts:
   files:
-    - bin/Debug/*
+    - AspNetMvcWebApplication/bin/Debug/*
