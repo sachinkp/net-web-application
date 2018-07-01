@@ -5,6 +5,9 @@ phases:
     commands:
       - dotnet restore
       - dotnet build
+  test:
+    commands:
+      - dotnet test ./core-web-app-test/core-web-app-test.csproj
 artifacts:
   files:
-    - AspNetMvcWebApplication/bin/Debug/*
+    - ./core-web-app/bin/Debug/netcoreapp2.1/*

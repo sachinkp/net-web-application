@@ -1,0 +1,7 @@
+
+dotnet sln [<SOLUTION_NAME>] add <PROJECT> <PROJECT> ...
+dotnet sln todo.sln add todo-app/todo-app.csproj
+
+
+dotnet run --project ./projects/proj1/proj1.csproj
+dotnet test ./core-web-app-test/core-web-app-test.csproj
