@@ -3,10 +3,12 @@
 phases:
   build:
     commands:
+      - echo Build started on `date`
       - dotnet restore
       - dotnet build
   post_build:
     commands:
+      - echo Build ended and test started on `date` 
       - dotnet test ./core-web-app-test/core-web-app-test.csproj
 artifacts:
   files:
